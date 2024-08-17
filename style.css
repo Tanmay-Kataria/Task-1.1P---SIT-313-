@@ -1,0 +1,136 @@
+
+table{
+    width: 10%;
+}
+header{
+    background-color: white;
+    width: 100%;
+}
+
+td{
+    color:white;
+    padding-bottom: 8%;
+    padding-top: 0%;
+}
+a{
+    color: #316ab4;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 100%;
+    text-decoration-line: none;
+}
+body
+{
+    background-color: #424242;
+    color: rgb(174, 190, 207);
+    margin: 0;
+    font-family: VastShadow-Regular;
+}
+
+.header-nav ul
+{
+    list-style-type: none;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.header-nav li
+{
+    float: left;
+    padding: 0 10px;
+}
+.header-nav a
+{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.header-nav li:hover{
+    background-color: rgb(133, 184, 235);
+}
+.header-image{
+    position: relative;
+}
+.overlay-text{
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+    right: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 2vw;
+}
+#profile-pic
+{
+    max-width: 200px;
+    min-width: 50px;
+    max-height: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+#header-img
+{
+    min-width: 99vw;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+}
+.header-image:hover .overlay-text{
+    opacity: 1;
+}
+
+hr{
+    width: 20%;
+    text-align: center;
+}
+
+h2{
+    margin: 50px;
+}
+
+h1{
+    margin: 50px;
+    text-align: center;
+}
+.projects-list
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+
+}
+.projects
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects img {
+    display: flex;
+    flex: auto;
+    margin-right: 10px;
+    width: 200px; 
+    height: auto;
+    border-radius: 10px; 
+}
+.projects span {
+    margin-left: 20px; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
